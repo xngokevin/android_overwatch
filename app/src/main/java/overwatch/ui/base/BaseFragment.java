@@ -1,4 +1,4 @@
-package parking.app.ui.base;
+package overwatch.ui.base;
 
 import android.app.Fragment;
 import android.view.LayoutInflater;
@@ -6,9 +6,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import butterknife.ButterKnife;
-import parking.app.util.LogUtil;
+import overwatch.util.LogUtil;
 
-import static parking.app.util.LogUtil.makeLogTag;
+import static overwatch.util.LogUtil.makeLogTag;
 
 /**
  * The base class for all fragment classes.

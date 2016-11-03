@@ -1,4 +1,4 @@
-package parking.app.ui.quote;
+package overwatch.ui.quote;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,9 +8,9 @@ import android.view.MenuItem;
 import android.widget.ListView;
 
 import de.andreasschrade.androidtemplate.R;
-import parking.app.dummy.DummyContent;
-import parking.app.ui.base.BaseActivity;
-import parking.app.util.LogUtil;
+import overwatch.dummy.DummyContent;
+import overwatch.ui.base.BaseActivity;
+import overwatch.util.LogUtil;
 
 /**
  * Lists all available quotes. This Activity supports a single pane (= smartphones) and a two pane mode (= large screens with >= 600dp width).

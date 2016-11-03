@@ -1,4 +1,4 @@
-package parking.app.ui.quote;
+package overwatch.ui.quote;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -21,7 +21,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.BitmapImageViewTarget;
 
 import de.andreasschrade.androidtemplate.R;
-import parking.app.dummy.DummyContent;
+import overwatch.dummy.DummyContent;
 
 /**
  * Shows a list of all available quotes.

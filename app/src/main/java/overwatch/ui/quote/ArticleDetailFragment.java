@@ -1,4 +1,4 @@
-package parking.app.ui.quote;
+package overwatch.ui.quote;
 
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
@@ -16,9 +16,9 @@ import com.bumptech.glide.Glide;
 
 import butterknife.Bind;
 import de.andreasschrade.androidtemplate.R;
-import parking.app.dummy.DummyContent;
-import parking.app.ui.base.BaseActivity;
-import parking.app.ui.base.BaseFragment;
+import overwatch.dummy.DummyContent;
+import overwatch.ui.base.BaseActivity;
+import overwatch.ui.base.BaseFragment;
 
 /**
  * Shows the quote detail page.

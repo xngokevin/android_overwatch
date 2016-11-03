@@ -1,4 +1,4 @@
-package parking.app.ui.base;
+package overwatch.ui.base;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,13 +11,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import de.andreasschrade.androidtemplate.R;
-import parking.app.ui.SettingsActivity;
-import parking.app.ui.ViewSamplesActivity;
-import parking.app.ui.quote.ListActivity;
-import parking.app.util.LogUtil;
+import overwatch.ui.SettingsActivity;
+import overwatch.ui.ViewSamplesActivity;
+import overwatch.ui.quote.ListActivity;
+import overwatch.util.LogUtil;
 
-import static parking.app.util.LogUtil.logD;
-import static parking.app.util.LogUtil.makeLogTag;
+import static overwatch.util.LogUtil.logD;
+import static overwatch.util.LogUtil.makeLogTag;
 
 /**
  * The base class for all Activity classes.

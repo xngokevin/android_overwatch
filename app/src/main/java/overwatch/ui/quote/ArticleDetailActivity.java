@@ -1,9 +1,9 @@
-package parking.app.ui.quote;
+package overwatch.ui.quote;
 
 import android.os.Bundle;
 
 import de.andreasschrade.androidtemplate.R;
-import parking.app.ui.base.BaseActivity;
+import overwatch.ui.base.BaseActivity;
 
 /**
  * Simple wrapper for {@link ArticleDetailFragment}
