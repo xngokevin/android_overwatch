@@ -11,20 +11,59 @@
     android:background="@drawable/overwatch_logo_background"
     tools:context="overwatch.app.ui.MainActivity">
 
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginTop="13dp"
+        android:id="@+id/region"
+        android:background="@android:color/white"
+        android:layout_below="@+id/platform"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
     <EditText
         android:inputType="textPersonName"
         android:ems="10"
-        android:layout_marginTop="41dp"
-        android:id="@+id/editText"
+        android:layout_marginTop="24dp"
+        android:id="@+id/editText2"
         android:textColor="@android:color/black"
         android:background="@android:color/white"
         android:textColorLink="@android:color/white"
-        android:hint="Tag"
+        android:hint=" Tag"
         android:textSize="18sp"
         android:layout_height="30sp"
+        android:layout_width="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp"
+        android:id="@+id/search" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:id="@+id/platform"
+        android:background="@android:color/white"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_width="wrap_content" />
+        android:layout_marginTop="14dp" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_marginTop="14dp"
+        android:id="@+id/mode"
+        android:background="@android:color/white"
+        android:layout_below="@+id/region"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
